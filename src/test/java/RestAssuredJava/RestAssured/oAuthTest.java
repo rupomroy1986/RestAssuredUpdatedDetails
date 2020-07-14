@@ -12,7 +12,7 @@ public static void main(String[] args) throws InterruptedException {
 
 		// 1st step:
 
-		String url = "https://rahulshettyacademy.com/getCourse.php?code=4%2F1wGITLSeXOI2Wq4BC8FGAmqrgBtNSGBKPPiY1YNqs6CP8r9q_ipWw5K8BFyLeZFbN7JAWBdJf3dtjfTqvQSmdcA&scope=email+openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&authuser=0&prompt=none";
+		String url = "https://rahulshettyacademy.com/getCourse.php?code=4%2F1wHfEAvmZQ8591KAkGEYFsCjVLMhZqZMxtvio6dDIUmzlliZIKCwkfsl6Ef0ajBBIKTp8Pnw5MDBE7sd3f6dJHc&scope=email+openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&authuser=0&prompt=none";
 		System.out.println(url);
 		String partialcode = url.split("code=")[1];
 		System.out.println(partialcode);
