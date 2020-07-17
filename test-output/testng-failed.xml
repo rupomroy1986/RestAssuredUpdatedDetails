@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="RestAssuredJava.RestAssured.StaticJson">
+      <class name="RestAssuredJava.RestAssured.DynamicJson">
         <methods>
           <include name="addBook"/>
+          <include name="deleteBook"/>
         </methods>
-      </class> <!-- RestAssuredJava.RestAssured.StaticJson -->
+      </class> <!-- RestAssuredJava.RestAssured.DynamicJson -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

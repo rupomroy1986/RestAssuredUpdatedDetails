@@ -10,7 +10,6 @@ import java.io.File;
 
 import org.testng.Assert;
 
-
 public class JiraTest {
 	
 public static void main(String[] args) {

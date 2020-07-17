@@ -70,4 +70,27 @@ public class payload {
 		return payload;
 
 }
+	public static String Body(Object name, Object isbn, Object aisle, Object author){
+		String s = "{\n" + 
+		  		"\n" + 
+		  		"\"name\":\""+name+" \",\n" + 
+		  		"\"isbn\":\""+isbn+"\",\n" + 
+		  		"\"aisle\":\""+aisle+"\",\n" + 
+		  		"\"author\":\""+author+"\"\n" + 
+		  		"}\n" + 
+		  		" ";
+				//System.out.println(s);
+				 return s;	
+		
+	}
+	
+	public static String DeleteBody(String isbn, String aisle){
+		String id = isbn + aisle;
+		String s = "{\n" + 
+				" \n" + 
+				"\"ID\" : \""+id+"\"\n" + 
+				" \n" + 
+				"}";
+		return s;
+	}
 }
